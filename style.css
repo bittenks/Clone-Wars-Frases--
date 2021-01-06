@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+@font-face {
+    font-family: 'star_jediregular';
+    src: url('starjedi-webfont.woff2') format('woff2'),
+         url('starjedi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+body {
+    background-image: url("https://i.imgur.com/xcMcx8z.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    
+    margin: 0;
+}
+
+.rodape {
+    grid-area: f / f / f / f;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 50px;
+    color: #4bd5ee;
+}
+
+h1 {
+    font-family: star_jediregular, sans-serif;
+    color:  rgb(255, 213, 78);
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+    size: 4.2rem;
+    align-items: center;
+}
+
+h5 {
+    color: rgb(243, 243, 241);
+    font-weight: normal;
+    font-size: 1.4rem;
+    font-family: star_jediregular, sans-serif;
+    align-items: center;
+    
+}
+
+input:hover{
+    box-shadow: -1px 1px 8px #45f500, 1px -1px 8px #45f500, inset -3px -2px 8px #45f500, inset 2px 3px 8px #45f500;
+    text-shadow: -1px 1px 8px #45f500, 1px -1px 8px #45f500;
+}
+
+div:hover{
+    border-color: rgba(255,213,78,.5);
+}
+div:active{
+    border-color: #ffd54e;
+}
+
+.text-item {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 20px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
+
+div{
+    padding: 6px 79px;
+    width: 480px;
+    color: #4bd5ee;
+    font-size: large;
+    align-items: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid rgba(255,213,78,.2);
+    border-top-color: rgba(255, 213, 78, 0.2);
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-right-color: rgba(255, 213, 78, 0.2);
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-bottom-color: rgba(255, 213, 78, 0.2);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-left-color: rgba(255, 213, 78, 0.2);
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    transition: border-color .3s ease-out;
+    transition-property: border-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    font: bold;
+    }
+
+
+input {
+    z-index: 10;
+    margin-top: 35px;
+    size: 14px;
+    position: flex;
+    color: #ffd54e;
+    letter-spacing: 3px;
+    font-family: star_jediregular, sans-serif;
+    line-height: 1.1em;
+    padding: 6px 15px 15px;
+    outline: 0;
+    border: 4px solid #ffd54e;
+    border-radius: 15px;
+    background: transparent;
+    text-shadow: none;
+    font-size: 50px;
+    cursor: pointer;
+    transition: box-shadow .3s ease-out,text-shadow .3s ease-out;
+    align-items: center;
+}
+
+
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+.facebook {
+    overflow: hidden;
+}
+
+.facebook img {
+    max-width: 200%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 2.5px solid transparent;
+    }
+   
+        
+
+
+.facebook:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: 2.5px solid #0e0e0e;
+    border-radius: 50%;
+    
+}
+
+ .instagram {
+    overflow: hidden;
+}
+
+.instagram img {
+    max-width: 200%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 2.5px solid transparent;
+    }
+   
+        
+
+
+.instagram:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.0);
+    border: 2.5px solid #0e0e0e;
+    border-radius: 50%;
+    
+}
+.linkedin {
+    overflow: hidden;
+}
+
+.linkedin img {
+    max-width: 200%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 2.5px solid transparent;
+    }
+   
+        
+
+
+.linkedin:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.0);
+    border: 2.5px solid #0e0e0e;
+    border-radius: 50%;
+    
+}
+
+
+
+@media (max-width: 900px) {
+    :root{
+        font-size: 62.5%;
+    }
+}
+
+@media (max-width: 900px) {
+    :root{
+        font-size: 62.5%;
+        text-align: center;
+    }
+}
